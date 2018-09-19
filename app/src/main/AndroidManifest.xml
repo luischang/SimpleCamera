@@ -30,7 +30,7 @@ Debe contener required=true
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.ejemplo.simplecamera.fileprovider"
+            android:authorities="com.ejemplo.simplecamera.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

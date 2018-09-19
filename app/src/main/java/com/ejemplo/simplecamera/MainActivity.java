@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
             // Si el archivo fue creado con éxito
             if (photoFile != null) {
                 Uri photoURI = FileProvider.getUriForFile(this,
-                        "com.ejemplo.simplecamera.fileprovider",
+                        "com.ejemplo.simplecamera.provider",
                         photoFile);
                 takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
                 startActivityForResult(takePictureIntent, CAMERA_REQUEST);
