@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cámara Simple</string>
+    <string name="abrir_camara">Abrir Cámara</string>
+    <string name="compartir">Compartir archivo</string>
+</resources>
